@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a id="n1" class="navbar-brand" href="#"><b>MENTOR</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar supported content">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbar supported content">
+			<ul id="n3" class="navbar-nav ml-auto">
+				<li class="nav-item active" id="m1">
+					<a id="n2" class="nav-link"  href="home.html">Home</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="courses.html">Courses</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="trainers.html">Trainers</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="events.html">Events</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="pricing.html">Pricing</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="dropdown.html" data-toggle="dropdown">Dropdown</a>
+
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="admin.html">Admin</a>
+				</li>
+				
+			</ul>
+
+			<button style=" color: white; border-radius: 30px;" class="btn btn-success ml-5  pr-5 pl-5" type="button">Get Started</button>
+		</div>
+	</nav><br><br>
+
+
+
+	<div class="text-center text-white bg-success p-5">
+		<h2>Contact Us</h2>
+		<p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
+	</div><br>
+	<iframe class="col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125432.31724802614!2d79.049046326135!3d10.752977697103095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baab89cea453039%3A0xe113da9b1f632be6!2sThanjavur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1694847671475!5m2!1sen!2sin" width="1345" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br><br><br>
+
+
+
+	<script>
+	function validateform() {
+			// body...
+
+		var userId=document.myform.userId.value;
+		var password=document.myform.password.value;
+		var yourname=document.myform.yourname.value;
+		var address=document.myform.address.value;
+		var country=document.myform.country.value;
+		var zip=document.myform.zip.value;
+		var email=document.myform.email.value;
+
+
+
+		if (userId==null || userId=="") {
+			alert("userId can't be blank");
+			return false;
+		}
+
+
+		else if (password.length<5) {
+			alert("Password must be at least  5  characters long");
+			return false;
+		}
+
+
+		else if (yourname.length<8) {
+			alert("yourname must be at least  2  characters long");
+			return false;
+		}
+
+		else if (address.length<10) {
+			alert("address must be at least  10 characters long");
+			return false;
+		}
+		
+		else if (country.length<2) {
+			alert("country can't be blank ");
+			return false;
+		}
+		else if (zip.length<2) {
+			alert("zip can't be blank ");
+			return false;
+		}
+		else if (email.length<2) {
+			alert("email can't be blank ");
+			return false;
+		}
+	}
+	</script>
+
+
+
+
+	<div class="container" >
+		<form name="myform" method="POST" action="home.html" onsubmit="return validateform()">
+			<div class="row">
+				<div class="col-6">
+			<div class="form-group">
+				<input type="text" name="userId" class="form-control" id="userId" placeholder="User Id" >
+			</div>
+		</div>
+
+		<div class="col-6">
+			<div class="form-group">
+				<input type="password" name="password" class="form-control" id="password" placeholder="Password" >
+			</div>
+		</div>
+	</div>
+
+        <div class="row">
+			<div class="col-6">
+			<div class="form-group">
+				<input type="text" name="yourname" class="form-control" id="yourname" placeholder="Enter Your Name" >
+			</div>
+		</div>
+
+		<div class="col-6">
+			<div class="form-group">
+				<input type="text" name="address" class="form-control" id="address" placeholder="Enter Your Address" >
+			</div>
+		</div>
+	</div>
+		
+
+		<div class="row">
+            <div class="col-6">
+			<div class="form-group">
+	            <select input type="text" class="form-control" name="country" id="country">
+                    <option selected>(please select your country)</option>
+	                    <option>Australia</option>
+	                    <option>Canada</option>
+	                    <option>India</option>
+	                    <option>USA</option>
+                </select>
+            </div>
+        </div>
+
+         
+        <div class="col-6">
+            <div class="form-group">
+			<input type="text" name="zip" class="form-control" id="zip" placeholder="Enter Your Zip" >
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+				<div class="col-6">
+			<div class="form-group">
+				<input type="email" name="email" class="form-control" id="email" placeholder="Enter Your Email" >
+			</div>
+		</div>
+
+		<div class="col-6">
+			<div class="form-group">
+			<textarea class="form-control"></textarea>
+			</div>
+		</div>
+	</div>
+	</div><br><br>
+
+
+    <div class="container">
+        <div class="row">
+	    <div class="col-6">
+	       <label><b>Gender:</b></label><br><input type="radio" name="gender">
+		   <label>Male</label><br><input type="radio" name="gender">
+		   <label>Female</label>
+       </div>
+
+        <div class="col-6">
+		    <label><b>Language:</b></label><br>
+		    <input type="checkbox"><label>&nbsp; English</label><br>
+		    <input type="checkbox"><label>&nbsp; Non English</label>
+		</div>
+	</div><br><br>
+	<style>
+		/*@media screen and (max-width:425px){
+				.btn1{
+					padding-left: 200px;
+					padding-right: 200px;
+				}
+			}*/
+	</style>
+
+		<button type="submit" action="home.html" value="register" class=" btn1 btn btn-success btn-block" >Submit</button>
+	</form>
+</div>
+<br><br>
+
+
+<footer style="background-color: #ebebeb;">
+	<div class="container-fluid">
+		<br>
+<div class="row">
+	<div class="col-8">
+	<p><i style="color:black; font-size: 15px;"class="fa-regular fa-copyright"></i>&nbsp;Copyright <b>Mentor.</b> All Rights Reserved.</p>
+</div>
+
+<div class="col-4">
+
+	 <i id="i1" class="fa-brands fa-square-twitter"></i>&nbsp;&nbsp; <i id="i1" class="fa-brands fa-square-instagram"></i>&nbsp;&nbsp; <i id="i1" class="fa-brands fa-facebook"></i>&nbsp;&nbsp; <i id="i1" class="fa-brands fa-linkedin"></i>
+	</div>
+</div>
+</div>
+</footer>
+
+
+</body>
+</html>
